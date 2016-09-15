@@ -125,6 +125,16 @@
 			</ipxact:abstractionTypes>
 			<ipxact:master/>
 		</ipxact:busInterface>
+		<ipxact:busInterface>
+			<ipxact:name>START</ipxact:name>
+			<ipxact:busType vendor="opencores.org" library="socgen_Busdefs" name="adhoc" version="bus"/>
+			<ipxact:abstractionTypes>
+				<ipxact:abstractionType>
+					<ipxact:abstractionRef vendor="opencores.org" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
+				</ipxact:abstractionType>
+			</ipxact:abstractionTypes>
+			<ipxact:slave/>
+		</ipxact:busInterface>
 	</ipxact:busInterfaces>
 	<ipxact:model>
 		<ipxact:views>
