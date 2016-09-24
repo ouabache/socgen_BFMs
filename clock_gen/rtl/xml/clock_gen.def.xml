@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ipxact:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:kactus2="http://kactus2.cs.tut.fi" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014/ http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
-	<ipxact:vendor>opencores.org</ipxact:vendor>
+	<ipxact:vendor>fusesoc</ipxact:vendor>
 	<ipxact:library>socgen_BFMs</ipxact:library>
 	<ipxact:name>clock_gen</ipxact:name>
 	<ipxact:version>def</ipxact:version>
 	<ipxact:busInterfaces>
 		<ipxact:busInterface>
 			<ipxact:name>clk</ipxact:name>
-			<ipxact:busType vendor="opencores.org" library="socgen_Busdefs" name="clk" version="bus"/>
+			<ipxact:busType vendor="fusesoc" library="socgen_Busdefs" name="clk" version="bus"/>
 			<ipxact:abstractionTypes>
 				<ipxact:abstractionType>
-					<ipxact:abstractionRef vendor="opencores.org" library="socgen_Busdefs" name="clk.absDef" version="bus"/>
+					<ipxact:abstractionRef vendor="fusesoc" library="socgen_Busdefs" name="clk.absDef" version="bus"/>
 					<ipxact:portMaps>
 						<ipxact:portMap>
 							<ipxact:logicalPort>
@@ -27,10 +27,10 @@
 		</ipxact:busInterface>
 		<ipxact:busInterface>
 			<ipxact:name>reset</ipxact:name>
-			<ipxact:busType vendor="opencores.org" library="socgen_Busdefs" name="reset" version="bus"/>
+			<ipxact:busType vendor="fusesoc" library="socgen_Busdefs" name="reset" version="bus"/>
 			<ipxact:abstractionTypes>
 				<ipxact:abstractionType>
-					<ipxact:abstractionRef vendor="opencores.org" library="socgen_Busdefs" name="reset.absDef" version="bus"/>
+					<ipxact:abstractionRef vendor="fusesoc" library="socgen_Busdefs" name="reset.absDef" version="bus"/>
 					<ipxact:portMaps>
 						<ipxact:portMap>
 							<ipxact:logicalPort>
@@ -47,10 +47,10 @@
 		</ipxact:busInterface>
 		<ipxact:busInterface>
 			<ipxact:name>BAD</ipxact:name>
-			<ipxact:busType vendor="opencores.org" library="socgen_Busdefs" name="adhoc" version="bus"/>
+			<ipxact:busType vendor="fusesoc" library="socgen_Busdefs" name="adhoc" version="bus"/>
 			<ipxact:abstractionTypes>
 				<ipxact:abstractionType>
-					<ipxact:abstractionRef vendor="opencores.org" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
+					<ipxact:abstractionRef vendor="fusesoc" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
 					<ipxact:portMaps>
 						<ipxact:portMap>
 							<ipxact:logicalPort>
@@ -67,10 +67,10 @@
 		</ipxact:busInterface>
 		<ipxact:busInterface>
 			<ipxact:name>STOP</ipxact:name>
-			<ipxact:busType vendor="opencores.org" library="socgen_Busdefs" name="adhoc" version="bus"/>
+			<ipxact:busType vendor="fusesoc" library="socgen_Busdefs" name="adhoc" version="bus"/>
 			<ipxact:abstractionTypes>
 				<ipxact:abstractionType>
-					<ipxact:abstractionRef vendor="opencores.org" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
+					<ipxact:abstractionRef vendor="fusesoc" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
 					<ipxact:portMaps>
 						<ipxact:portMap>
 							<ipxact:logicalPort>
@@ -87,10 +87,10 @@
 		</ipxact:busInterface>
 		<ipxact:busInterface>
 			<ipxact:name>FAIL</ipxact:name>
-			<ipxact:busType vendor="opencores.org" library="socgen_Busdefs" name="adhoc" version="bus"/>
+			<ipxact:busType vendor="fusesoc" library="socgen_Busdefs" name="adhoc" version="bus"/>
 			<ipxact:abstractionTypes>
 				<ipxact:abstractionType>
-					<ipxact:abstractionRef vendor="opencores.org" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
+					<ipxact:abstractionRef vendor="fusesoc" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
 					<ipxact:portMaps>
 						<ipxact:portMap>
 							<ipxact:logicalPort>
@@ -107,10 +107,10 @@
 		</ipxact:busInterface>
 		<ipxact:busInterface>
 			<ipxact:name>FINISH</ipxact:name>
-			<ipxact:busType vendor="opencores.org" library="socgen_Busdefs" name="adhoc" version="bus"/>
+			<ipxact:busType vendor="fusesoc" library="socgen_Busdefs" name="adhoc" version="bus"/>
 			<ipxact:abstractionTypes>
 				<ipxact:abstractionType>
-					<ipxact:abstractionRef vendor="opencores.org" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
+					<ipxact:abstractionRef vendor="fusesoc" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
 					<ipxact:portMaps>
 						<ipxact:portMap>
 							<ipxact:logicalPort>
@@ -127,10 +127,10 @@
 		</ipxact:busInterface>
 		<ipxact:busInterface>
 			<ipxact:name>START</ipxact:name>
-			<ipxact:busType vendor="opencores.org" library="socgen_Busdefs" name="adhoc" version="bus"/>
+			<ipxact:busType vendor="fusesoc" library="socgen_Busdefs" name="adhoc" version="bus"/>
 			<ipxact:abstractionTypes>
 				<ipxact:abstractionType>
-					<ipxact:abstractionRef vendor="opencores.org" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
+					<ipxact:abstractionRef vendor="fusesoc" library="socgen_Busdefs" name="adhoc.absDef" version="bus"/>
 				</ipxact:abstractionType>
 			</ipxact:abstractionTypes>
 			<ipxact:slave/>
